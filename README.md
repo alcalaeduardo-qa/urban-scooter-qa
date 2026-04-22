@@ -11,7 +11,7 @@ Proyecto final del bootcamp **TripleTen QA Engineer — Cohorte 2026**.
 
 ---
 
-## Resumen para reclutadores
+## Resumen
 
 Este proyecto demuestra capacidad para **diseñar e implementar un framework de QA desde cero**, cubriendo la pirámide completa de pruebas en un producto real:
 
