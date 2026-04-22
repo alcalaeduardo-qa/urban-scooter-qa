@@ -1,0 +1,55 @@
+# ── Entorno virtual ───────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Variables de entorno (contienen credenciales) ─────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Artefactos de ejecución ───────────────────────────────────────────────────
+results/
+screenshots/
+logs/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.pytest_cache_local/
+*.egg-info/
+dist/
+build/
+
+# ── Cobertura de código ───────────────────────────────────────────────────────
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+
+# ── Móvil ─────────────────────────────────────────────────────────────────────
+*.apk
+
+# ── Jira exports (datos del proyecto) ────────────────────────────────────────
+Jira*.csv
+"Jira *.csv"
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Archivos temporales de trabajo ───────────────────────────────────────────
+*.tmp
+*.bak
+window_dump.xml
+Captura de pantalla_*.png
+Cap.png
+ventana.jpeg

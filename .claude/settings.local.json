@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/python -m pytest tests/test_tarea_5_happy_path.py -m tarea5 -v --tb=short)",
+      "Bash(python3 -c \"import tkinter; print\\('tkinter OK'\\)\")",
+      "Bash(python3 launcher.py)",
+      "Bash(.venv/bin/python -c ' *)",
+      "Bash(.venv/bin/python -c \"import bug_reporter; print\\('bug_reporter OK'\\)\")",
+      "Bash(.venv/bin/python -m py_compile launcher.py)",
+      "Bash(.venv/bin/python -)",
+      "Bash(.venv/bin/python -m pytest tests/test_tarea_2_checklist.py --collect-only -q)",
+      "Bash(.venv/bin/python -m pytest tests/test_tarea_2_checklist.py --tb=short -q)",
+      "Bash(.venv/bin/python -m pytest tests/test_tarea_2_validacion_datos.py --tb=short -q)",
+      "Bash(.venv/bin/python -m pytest tests/test_tarea_3_cases.py --tb=short -q)",
+      "Bash(.venv/bin/python -m pytest tests/test_tarea_4_checklist.py --tb=short -q)",
+      "Bash(.venv/bin/python -m pytest tests/test_tarea_5_happy_path.py --tb=short -q)",
+      "Bash(grep -c '@screenshot_on_fail$\\\\|@screenshot_on_fail\\(\"tarea4_api\"\\)' \"/home/edu/Documentos/Projects/Copia de rombo_automation/tests/test_tarea_4_checklist.py\")",
+      "Bash(grep -c '@screenshot_on_fail$' \"/home/edu/Documentos/Projects/Copia de rombo_automation/tests/test_tarea_4_checklist.py\")",
+      "Bash(python3 -m pytest /tmp/test_addr_limit.py -v --tb=line --browsers chromium)",
+      "Bash(python3 -m pytest /tmp/test_addr_limit.py -v --tb=line)",
+      "Bash(python3 -m pytest tests/test_tmp_addr_limit.py -v --tb=no -s)",
+      "Bash(python3 -m pytest tests/test_tmp_addr_limit.py --tb=no -q)",
+      "Bash(python3 -m pytest tests/test_tmp_addr_limit.py::test_addr_length[30] --tb=long)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 jira_bug_updater.py)"
+    ]
+  }
+}
