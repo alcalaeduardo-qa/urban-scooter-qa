@@ -9,7 +9,19 @@
 Framework de automatización E2E para la plataforma de renta de scooters Urban Scooter.  
 Proyecto final del bootcamp **TripleTen QA Engineer — Cohorte 2026**.
 
-Cubre la **pirámide completa de pruebas**: UI Web (Opera + Chrome), REST API, PostgreSQL y Android móvil, con reportes Excel auto-generados, capturas de pantalla por prueba y exportación de bugs a Jira vía REST API.
+---
+
+## Resumen para reclutadores
+
+Este proyecto demuestra capacidad para **diseñar e implementar un framework de QA desde cero**, cubriendo la pirámide completa de pruebas en un producto real:
+
+- **251 casos automatizados** distribuidos en 5 suites (Web, API, Móvil, DB) con **81 bugs documentados** y exportados a Jira.
+- **Arquitectura modular** con Page Object Model, fixtures reutilizables, decoradores personalizados (`@retry`, `@screenshot_on_fail`) y configuración centralizada por entorno.
+- **Pruebas dual-browser** (Opera + Chromium) parametrizadas en una sola ejecución sin duplicar código.
+- **Pipeline de bugs completo**: detección → reporte Excel → CSV para Jira → adjunto de capturas vía REST API → transición de estados automática.
+- **Cobertura de técnicas QA**: Análisis de Valores Límite (BVA), Partición por Equivalencia, checklist funcional, happy path y pruebas de regresión.
+- **Acceso a base de datos** PostgreSQL en entorno remoto vía túnel SSH para validación de estado de datos.
+- **Código mantenible**: sin credenciales hardcodeadas, `.env`-driven, compatible con CI/CD.
 
 ---
 
